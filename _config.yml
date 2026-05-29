@@ -7,7 +7,7 @@ email: Jonasweiler@hotmail.de
 # Wenn dein Repo z.B. "warmes-tagebuch" heißt und auf username.github.io/warmes-tagebuch liegt,
 # dann musst du baseurl auf "/warmes-tagebuch" setzen. Für ein User-Repo (username.github.io)
 # bleibt baseurl leer.
-baseurl: ""
+baseurl: "/jonas_blog"
 url: ""
 
 # Sprache der Seite (für SEO und Lesbarkeit)
