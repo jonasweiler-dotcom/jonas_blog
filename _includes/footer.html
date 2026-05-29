@@ -1,0 +1,12 @@
+<footer class="site-footer">
+  <div class="container container-wide">
+    <nav class="footer-navigation">
+      <ul>
+        {% for item in site.footer_navigation %}
+          <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+    <p class="footer-credits">&copy; {{ 'now' | date: "%Y" }} {{ site.title }} · Mit Sorgfalt geschrieben</p>
+  </div>
+</footer>

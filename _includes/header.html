@@ -1,0 +1,20 @@
+<header class="site-header">
+  <div class="container container-wide">
+    <div class="site-header-inner">
+      <div class="site-branding">
+        <h1 class="site-title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+        <p class="site-description">{{ site.description }}</p>
+      </div>
+      <nav class="main-navigation">
+        <ul>
+          {% for item in site.navigation %}
+            {% assign current_url = page.url | remove_first: site.baseurl %}
+            <li {% if current_url == item.url %}class="current-menu-item"{% endif %}>
+              <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>

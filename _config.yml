@@ -1,0 +1,58 @@
+# Grundeinstellungen — hier bestimmst du Titel, Untertitel und Autor des Blogs.
+title: Warmes Tagebuch
+description: Gedanken aus dem Alltag
+author: Jonas Weiler
+email: Jonasweiler@hotmail.de
+
+# Wenn dein Repo z.B. "warmes-tagebuch" heißt und auf username.github.io/warmes-tagebuch liegt,
+# dann musst du baseurl auf "/warmes-tagebuch" setzen. Für ein User-Repo (username.github.io)
+# bleibt baseurl leer.
+baseurl: ""
+url: ""
+
+# Sprache der Seite (für SEO und Lesbarkeit)
+lang: de-DE
+timezone: Europe/Berlin
+
+# Format der Datumsausgabe in Beiträgen, z.B. "3. Mai 2026"
+date_format: "%-d. %B %Y"
+
+# Wie viele Beiträge pro Seite (für spätere Pagination)
+paginate: 10
+
+# Navigation — Reihenfolge und Beschriftung
+navigation:
+  - title: Beiträge
+    url: /
+  - title: Über mich
+    url: /ueber-mich/
+  - title: Impressum
+    url: /impressum/
+
+footer_navigation:
+  - title: Über mich
+    url: /ueber-mich/
+  - title: Impressum
+    url: /impressum/
+  - title: Datenschutz
+    url: /datenschutz/
+  - title: RSS
+    url: /feed.xml
+
+# Markdown-Verarbeitung
+markdown: kramdown
+highlighter: rouge
+permalink: /:year/:month/:title/
+
+# Plugins — GitHub Pages erlaubt diese standardmäßig
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Was beim Bauen ignoriert werden soll
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

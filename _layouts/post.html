@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+<div class="container">
+
+  <article class="entry">
+
+    <header class="entry-header">
+      <div class="post-meta">
+        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: site.date_format }}</time>
+        {% if page.categories.size > 0 %}
+          <span>·</span>
+          <span class="post-categories">{% for cat in page.categories %}<a href="#">{{ cat }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</span>
+        {% endif %}
+      </div>
+      <h1 class="entry-title">{{ page.title }}</h1>
+    </header>
+
+    {% if page.image %}
+      <div class="entry-thumbnail">
+        <img src="{{ page.image | relative_url }}" alt="{{ page.title | escape }}">
+      </div>
+    {% endif %}
+
+    <div class="entry-content">
+      {{ content }}
+    </div>
+
+    <footer class="entry-footer">
+      <p>Geschrieben von {{ site.author }} · <a href="{{ '/' | relative_url }}">← Zurück zur Übersicht</a></p>
+    </footer>
+
+  </article>
+
+</div>

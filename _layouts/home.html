@@ -1,0 +1,45 @@
+---
+layout: default
+---
+
+<div class="container container-wide">
+
+  <header class="site-hero">
+    <span class="eyebrow">Tagebuch</span>
+    <h1>Willkommen in meinem <em>warmen</em> Tagebuch.</h1>
+    <p>{{ site.description }} — geschrieben mit langsamen Sätzen und einer Tasse Kaffee in der Hand.</p>
+  </header>
+
+  <div class="ornament"><span>※</span></div>
+
+  <div class="post-list">
+
+    {% for post in site.posts %}
+      {% assign gradient = post.thumbnail_gradient | default: "radial-gradient(circle at 30% 25%, #f3d2a8 0%, transparent 45%), radial-gradient(circle at 75% 70%, #b85c38 0%, transparent 55%), linear-gradient(135deg, #e8c39a 0%, #c97b5a 60%, #6e2f17 100%)" %}
+
+      <article class="post-card{% if forloop.first %} featured{% endif %}">
+        <a href="{{ post.url | relative_url }}" class="post-card-thumb" style="background: {{ gradient }};" aria-label="{{ post.title | escape }}">
+          {% if post.image %}<img src="{{ post.image | relative_url }}" alt="{{ post.title | escape }}">{% endif %}
+        </a>
+        <div class="post-card-body">
+          {% if forloop.first %}<span class="featured-badge">Aktueller Beitrag</span>{% endif %}
+          <div class="post-meta">
+            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: site.date_format }}</time>
+            {% if post.categories.size > 0 %}
+              <span>·</span>
+              <span class="post-categories">{% for cat in post.categories %}<a href="#">{{ cat }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</span>
+            {% endif %}
+            {% if post.reading_time %}<span>·</span><span>{{ post.reading_time }} min Lesezeit</span>{% endif %}
+          </div>
+          <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+          <div class="excerpt">
+            {{ post.excerpt | strip_html | truncate: 220 }}
+          </div>
+          <a class="read-more" href="{{ post.url | relative_url }}">Weiterlesen</a>
+        </div>
+      </article>
+    {% endfor %}
+
+  </div>
+
+</div>
