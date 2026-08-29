@@ -39,7 +39,7 @@ Eine der am besten belegten Theorien ist die Selbstbestimmungstheorie von Edward
 
 Werden diese drei Bedürfnisse regelmäßig befriedigt, steigen intrinsische Motivation, persönliches Wachstum und Lebenszufriedenheit. Fehlt vor allem Autonomie – etwa bei stark fremdgesteuerten Zielen –, sinkt das Wohlbefinden selbst dann, wenn die Ziele erreicht werden.
 
-![Die drei Grundbedürfnisse der Selbstbestimmungstheorie](/Assets/gluecklich/chart_sdt_needs.png)
+![Die drei Grundbedürfnisse der Selbstbestimmungstheorie](/Assets/chart_sdt_needs.png)
 
 Wie belastbar dieser Zusammenhang ist, zeigt eine große Meta-Analyse zur Selbstbestimmungstheorie: Über 4.561 Effektstärken aus 881 unabhängigen Stichproben hinweg hängt die Unterstützung dieser drei Grundbedürfnisse durchgängig und deutlich mit besserem Wohlbefinden zusammen – über Kulturen, Altersgruppen und Lebensbereiche hinweg.
 
@@ -51,7 +51,7 @@ Die Harvard Study of Adult Development läuft seit 1938 und ist damit die längs
 
 Lange galt die Faustregel, dass Glück ab einem Jahreseinkommen von etwa 75.000 US-Dollar nicht mehr steigt (Kahneman & Deaton, 2010). Matthew Killingsworth stellte das 2021 infrage: Auf Basis von 1.725.994 Erlebnisstichproben von 33.391 berufstätigen Erwachsenen in den USA – Einkommensklassen von 15.000 bis 625.000 US-Dollar pro Jahr – zeigte sich, dass Wohlbefinden linear mit dem Logarithmus des Einkommens weitersteigt, ohne erkennbares Plateau.
 
-![Einkommen und emotionales Wohlbefinden](/Assets/gluecklich/chart_income.png)
+![Einkommen und emotionales Wohlbefinden](/Assets/chart_income.png)
 
 In einer gemeinsamen Neuauswertung 2023 lösten Kahneman und Killingsworth den scheinbaren Widerspruch auf: Nur bei den unglücklichsten rund 20 Prozent der Befragten flacht der Effekt von mehr Einkommen ab einem Bereich von etwa 175.000 bis 250.000 US-Dollar pro Jahr ab. Bei der zufriedeneren Mehrheit steigt Wohlbefinden weiter an – bei den glücklichsten sogar beschleunigt. Geld lindert also vor allem konkrete Sorgen und Stress; ein Selbstzweck wird es für die meisten Menschen aber nicht.
 
@@ -69,7 +69,7 @@ Selbstoptimierung – Schlaf tracken, Produktivität steigern, den Körper verme
 
 Wie stark dieser Trend zugenommen hat, zeigt eine Meta-Analyse von Thomas Curran und Andrew Hill über 164 Stichproben und 41.641 Studierende aus den USA, Kanada und Großbritannien zwischen 1989 und 2016:
 
-![Anstieg des Perfektionismus 1989–2016](/Assets/gluecklich/chart_perfectionism.png)
+![Anstieg des Perfektionismus 1989–2016](/Assets/chart_perfectionism.png)
 
 Der auf sich selbst gerichtete Perfektionismus stieg um 10 Prozent, der auf andere gerichtete um 16 Prozent – am stärksten aber wuchs der sozial vorgeschriebene Perfektionismus, also das Gefühl, unrealistischen Erwartungen anderer genügen zu müssen: um 33 Prozent in nur 27 Jahren. Gerade diese Form hängt am engsten mit geringerem Wohlbefinden und einem höheren Risiko für Angststörungen, Depressionen und Essstörungen zusammen.
 
@@ -79,7 +79,7 @@ Die Grenze verläuft ungefähr dort, wo Selbstoptimierung von intrinsischer Neug
 
 Kaum ein Faktor ist so gut erforscht wie Bewegung – und kaum einer lässt sich so klar in Zahlen fassen. Eine Dosis-Wirkungs-Metaanalyse prospektiver Kohortenstudien zeigt: Schon bei der halben von der WHO empfohlenen Bewegungsmenge (4,4 MET-Stunden pro Woche, etwa 75 Minuten zügiges Gehen) sinkt das Risiko, eine Depression zu entwickeln, um 18 Prozent gegenüber einem inaktiven Lebensstil. Wer die volle WHO-Empfehlung von 8,8 MET-Stunden pro Woche erreicht (etwa 150 Minuten moderate Bewegung), senkt das Risiko um 25 Prozent.
 
-![Sport und Depressionsrisiko](/Assets/gluecklich/chart_exercise.png)
+![Sport und Depressionsrisiko](/Assets/chart_exercise.png)
 
 Der Mechanismus dahinter ist gut kartiert: Körperliche Aktivität schüttet Beta-Endorphine aus, die Schmerzempfinden senken und Wohlbefinden unmittelbar steigern. Regelmäßiges, besonders moderates bis intensives Ausdauertraining erhöht zudem den Spiegel des Brain-Derived Neurotrophic Factor (BDNF) im Hippocampus – ein Wachstumsfaktor, der Neubildung von Nervenzellen und Synapsen fördert. In einer kontrollierten Studie mit 120 älteren Erwachsenen vergrößerte ein Jahr Ausdauertraining das Volumen des vorderen Hippocampus um rund 2 Prozent und machte damit den altersbedingten Volumenverlust von ein bis zwei Jahren rückgängig – begleitet von messbar besserer räumlicher Gedächtnisleistung. Gleichzeitig senkt Sport das Stresshormon Cortisol und moduliert Serotonin und Dopamin. In klinischen Studien wirkt regelmäßige Bewegung bei leichten bis mittleren Depressionen teils vergleichbar wirksam wie Medikamente. Wichtig: Es braucht kein Hochleistungstraining – die Kurve oben zeigt, dass der größte Sprung schon beim Umstieg von komplett inaktiv zu moderat aktiv passiert.
 
